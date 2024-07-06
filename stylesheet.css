@@ -3,6 +3,7 @@
     padding: 0%;
     background-color: black;
     color: white;
+    scroll-behavior: unset;
 }
 
 .header {
@@ -29,12 +30,14 @@
     align-items: center;
     margin-left: auto;
     margin-right: 10px;
+    text-decoration: none;
 
 }
 
 li {
     list-style: none;
     margin: 10px;
+    text-decoration: none;
 }
 
 #username {
@@ -128,4 +131,80 @@ li {
     font-weight: bold;
     font-size: 30px;
     margin: 30px;
+}
+
+.resume_image {
+    display: flex;
+    justify-content: center;
+}
+
+#Download {
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.ps_info {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project1 {
+    width: 80%;
+    height: 200px;
+    margin: 10%;
+    background-color: aliceblue;
+    margin-top: 5%;
+    border-radius: 20px;
+    color: black;
+    padding: 0px;
+    resize: both;
+    overflow: auto;
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.name {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    width: 80%;
+    position: fixed;
+    margin-top: 0%;
+}
+
+.discription {
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    width: 80%;
+    margin-top: 23px;
+}
+
+.section_ {
+    background-color: aliceblue;
+
+}
+
+.link_to {
+    width: auto;
+    height: 30px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+a {
+    background-color: aliceblue;
 }
