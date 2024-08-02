@@ -165,45 +165,38 @@ li {
 
 a {
     text-decoration: none;
+
 }
 
 /* -----------project ------------*/
 .project1 {
-    width: 80%;
-    height: 200px;
-    margin: 10%;
-    background-color: aliceblue;
-    margin-top: 5%;
-    border-radius: 20px;
-    color: black;
-    padding: 0px;
-    resize: both;
-
     display: flex;
-    padding: 10px;
-
+    margin: 5%;
 }
 
-.project_name {
+.card {
     background-color: aliceblue;
-    color: rgb(21, 21, 36);
-    font-size: 20px;
+    margin: 20px;
+    background: aliceblue;
 }
 
-.project_name>p {
-    color: rgb(21, 21, 36);
-    background-color: aliceblue;
-    font-size: 15px;
-    margin-left: 20px;
-    margin-top: 10pxs;
+.price {
+    color: grey;
+    font-size: 22px;
 }
 
-.launch_btn>img {
-    height: 30px;
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: aliceblue #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
-/* -------resumedemo--------- */
-.education_Card {
-    width: 50%;
-    align-items: center;
+.card button:hover {
+    opacity: 0.7;
 }
