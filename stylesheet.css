@@ -172,25 +172,26 @@ a {
 .project1 {
     display: flex;
     margin: 5%;
+    justify-content: center;
 }
 
 .card {
     background-color: aliceblue;
     margin: 20px;
     background: aliceblue;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
 }
 
-.price {
-    color: grey;
-    font-size: 22px;
-}
+
 
 .card button {
     border: none;
     outline: 0;
     padding: 12px;
-    color: white;
-    background-color: aliceblue #000;
+    color: rgb(0, 32, 80);
+    background-color: aliceblue;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -199,4 +200,8 @@ a {
 
 .card button:hover {
     opacity: 0.7;
+}
+
+.card>img {
+    border-radius: 5px;
 }
